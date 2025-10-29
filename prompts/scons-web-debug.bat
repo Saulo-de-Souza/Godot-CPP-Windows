@@ -1,5 +1,7 @@
 @echo off
 
+call emsdk\emsdk_env.bat
+
 @REM Copiando pasta assets
 set DEST=.\my_game_here\assets\nodes_icons
 echo Limpando pasta destino...
@@ -15,5 +17,6 @@ echo "Setando a variável de ambiente para SCons..."
 set PATH=%PATH%;C:\Users\saulo\AppData\Roaming\Python\Python314\Scripts
 echo "Variável de ambiente atualizada."
 echo "Iniciando o SCons com os argumentos fornecidos..."
+
 
 scons platform=web target=template_debug dlink_enabled=yes threads=no

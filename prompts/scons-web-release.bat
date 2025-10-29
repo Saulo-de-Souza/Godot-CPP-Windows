@@ -1,5 +1,7 @@
 @echo off
 
+call emsdk\emsdk_env.bat
+
 @REM Copiando pasta assets
 set DEST=.\my_game_here\assets\nodes_icons
 echo Limpando pasta destino...
