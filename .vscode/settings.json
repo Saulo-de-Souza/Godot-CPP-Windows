@@ -9,7 +9,7 @@
         "**/*.import": true,
         "**/*.~import": true,
         "**/*.uid": true,
-        "**/*.sconsign.dblite": true
+        "**/*.sconsign.dblite": false
     },
     "files.associations": {
         "xstring": "cpp"
