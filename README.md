@@ -6,6 +6,7 @@
 - Abra a Godot 4.5x e importe o projeto que está na pasta my_game_here.
 
 - Não rode o jogo antes de abrir este projeto no cmd do windows ou no vscode e der "prompts\scons.bat" para o scons construir o codigo c++.
+- Depois de compilar e se estiver com o projeto aberto na Godot, dê um refresh na cena para o ícone da CameraSpring atualizar.
 
 - Caso queira, pode futuramente substituir pastas e variáveis "my_game_here" pelo nom do seu projeto.
 

@@ -37,6 +37,7 @@ transform = Transform3D(-0.8660254, -0.43301278, 0.25, 0, 0.49999997, 0.86602545
 shadow_enabled = true
 
 [node name="CameraSpring" type="CameraSpring" parent="."]
+speed = 0.524
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.44486213, 0)
 
 [node name="MeshInstance3D" type="MeshInstance3D" parent="."]
