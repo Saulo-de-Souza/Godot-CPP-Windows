@@ -1,0 +1,23 @@
+[configuration]
+entry_symbol = "register_init"
+compatibility_minimum = "4.5"
+reloadable = true
+
+
+[icons]
+CameraSpring = "res://assets/nodes_icons/raycast_mult.png"
+
+
+[libraries]
+macos.debug = "res://bin/my_game_here.macos.debug.universal.dylib"
+macos.release = "res://bin/my_game_here.macos.release.universal.dylib"
+windows.debug.x86_32 = "res://bin/my_game_here.windows.template_debug.x86_32.dll"
+windows.release.x86_32 = "res://bin/my_game_here.windows.template_release.x86_32.dll"
+windows.debug.x86_64 = "res://bin/my_game_here.windows.template_debug.x86_64.dll"
+windows.release.x86_64 = "res://bin/my_game_here.windows.template_release.x86_64.dll"
+linux.debug.x86_64 = "res://bin/my_game_here.linux.template_debug.x86_64.so"
+linux.release.x86_64 = "res://bin/my_game_here.linux.template_release.x86_64.so"
+linux.debug.arm64 = "res://bin/my_game_here.linux.template_debug.arm64.so"
+linux.release.arm64 = "res://bin/my_game_here.linux.template_release.arm64.so"
+web.debug.wasm32 = "res://bin/my_game_here.web.template_debug.wasm32.wasm"
+web.release.wasm32 = "res://bin/my_game_here.web.template_release.wasm32.wasm"

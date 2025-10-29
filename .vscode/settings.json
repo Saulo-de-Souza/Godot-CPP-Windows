@@ -1,0 +1,17 @@
+{
+    "godotTools.editorPath.godot4": "d:\\5-Programas\\Godot\\Godot_v4.5.1-stable_win64.exe\\Godot_v4.5.1-stable_win64.exe",
+    "files.exclude": {
+        "**/.git": true,
+        "**/.svn": true,
+        "**/.hg": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true,
+        "**/*.import": true,
+        "**/*.~import": true,
+        "**/*.uid": true,
+        "**/*.sconsign.dblite": true
+    },
+    "files.associations": {
+        "xstring": "cpp"
+    }
+}
