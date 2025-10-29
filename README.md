@@ -7,7 +7,7 @@
 
 - Não rode o jogo antes de abrir este projeto no cmd do windows ou no vscode e der "prompts\scons.bat" para o scons construir o codigo c++.
 
-- Caso queira,substituir pastas e variáveis "my_game_here" pelo nom do seu projeto.
+- Caso queira, pode futuramente substituir pastas e variáveis "my_game_here" pelo nom do seu projeto.
 
 - Comandos para windows de como compilar para windows, linux e web estão na pasta "prompts" em arquivos.bat.
 - Não esquecer de instalar scons (pip install scons) e alterar o endereço path do scons nos arquivos prompts .bat.
